@@ -9,7 +9,7 @@ while x >= 100:
     y = x - 100
     x = y
 
-notas = f'{str(cont)} - nota(s) de 100\n'
+notas = f'{str(cont)} nota(s) de 100\n'
 
 cont = 0
 
@@ -18,7 +18,7 @@ while x >= 50:
     y = x - 50
     x = y
 
-notas += f'{str(cont)} - nota(s) de 50\n'
+notas += f'{str(cont)} nota(s) de 50\n'
 
 cont = 0
 
@@ -27,7 +27,7 @@ while x >= 20:
     y = x - 20
     x = y
 
-notas += f'{str(cont)} - nota(s) de 20\n'
+notas += f'{str(cont)} nota(s) de 20\n'
 
 cont = 0
 
@@ -36,7 +36,7 @@ while x >= 10:
     y = x - 10
     x = y
 
-notas += f'{str(cont)} - nota(s) de 10\n'
+notas += f'{str(cont)} nota(s) de 10\n'
 
 cont = 0
 
@@ -45,7 +45,7 @@ while x >= 5:
     y = x - 5
     x = y
 
-notas += f'{str(cont)} - nota(s) de 5\n'
+notas += f'{str(cont)} nota(s) de 5\n'
 
 cont = 0
 
@@ -54,7 +54,7 @@ while x >= 2:
     y = x - 2
     x = y
 
-notas += f'{str(cont)} - nota(s) de 2\n'
+notas += f'{str(cont)} nota(s) de 2\n'
 
 cont = 0
 
@@ -63,6 +63,6 @@ while x >= 1:
     y = x - 1
     x = y
 
-notas += f'{str(cont)} - nota(s) de 1'
+notas += f'{str(cont)} nota(s) de 1'
 
 print(notas)
